@@ -1,0 +1,75 @@
+// calendar.component.scss
+
+// General styles
+$primary-color: #007bff;
+$button-bg: #f8f9fa;
+$button-hover: #e2e6ea;
+$border-color: #dee2e6;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: $primary-color;
+}
+
+// Button styling
+button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Event list styles
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    background-color: white;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    strong {
+      font-size: 16px;
+      color: $primary-color;
+    }
+
+    button {
+      background-color: $button-bg;
+      color: #333;
+      padding: 5px 10px;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $button-hover;
+      }
+    }
+  }
+}

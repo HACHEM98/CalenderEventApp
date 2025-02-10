@@ -1,0 +1,27 @@
+{
+  "calendrEventApp": {
+    "calendarEvent": {
+      "home": {
+        "title": "Calendar Events",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Calendar Event",
+        "createOrEditLabel": "Create or edit a Calendar Event",
+        "notFound": "No Calendar Events found"
+      },
+      "created": "A new Calendar Event is created with identifier {{ param }}",
+      "updated": "A Calendar Event is updated with identifier {{ param }}",
+      "deleted": "A Calendar Event is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Calendar Event {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendar Event"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}
