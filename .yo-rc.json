@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "calendrEventApp",
+    "buildTool": "maven",
+    "cacheProvider": "redis",
+    "clientFramework": "angular",
+    "clientTestFrameworks": [],
+    "clientTheme": "none",
+    "creationTimestamp": 1739176902948,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": true,
+    "enableTranslation": true,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.9.0",
+    "jwtSecretKey": "ZGY4NzQ2NzUzMzRiNDAwMGYxZjJmZjBlMzBlNDYxODVkZjZmNmE0MzFiMjAwNWIxMDVjNDRlNWNmYzc1YzZhYzgwZTc4ZjgyNDIzNGVhNGNjYmQ5OGY2YzE4Mzk0MjNlYTZiZTY2NTM0ZTM2YmE2Njc1MTk1MDNhMDE3YjU1MDM=",
+    "languages": ["en"],
+    "microfrontend": null,
+    "microfrontends": [],
+    "nativeLanguage": "en",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "mysql",
+    "reactive": false,
+    "serverPort": null,
+    "serviceDiscoveryType": null,
+    "syncUserWithIdp": null,
+    "testFrameworks": [],
+    "withAdminUi": true
+  }
+}
