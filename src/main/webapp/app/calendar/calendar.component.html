@@ -1,0 +1,14 @@
+<h2>Calendar Events</h2>
+<!-- Show error message if there's an error -->
+<div *ngIf="errorMessage" class="alert alert-danger">
+  {{ errorMessage }}
+</div>
+
+<button (click)="addEvent()">Add Event</button>
+
+<ul>
+  <li *ngFor="let event of events">
+    <strong>{{ event.title }}</strong> - {{ event.startTime }} to {{ event.endTime }}
+    <button (click)="deleteEvent(event.id!)">Delete</button>
+  </li>
+</ul>
